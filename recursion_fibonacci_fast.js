@@ -15,5 +15,6 @@ function fastfib(n) {
 
 console.log(fastfib(10));
 console.log(fastfib(14));
+console.log(fastfib(15));
 // With the use of memoization technique we have brought
 // the complextity of the program to O(n)
