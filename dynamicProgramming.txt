@@ -4,3 +4,6 @@ Memoization is useful when attacking recursive problems that have many overlappi
     Add the memo object as an additional arg to the function. The keys will represent unique arguments to the function, and their values will represent the results for those arguments.
     Add a base case condition to the function that returns the stored value if the function's arg is in the memo.
     Before you return the result of the recursive case, store it in the memo as a value and make the function's arg it's key.
+
+Tabulation is used again for breaking bigger problems into smaller ones and solving them efficiently
+it is applied for functions in which there is no recursion and the additional data type is the array
